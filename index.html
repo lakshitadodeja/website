@@ -35,7 +35,7 @@
 
               <p style="text-align:center">
                 <a href="mailto:lakshita.dodeja@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/Lakshita_DodejaCV_PhD_Dec'24.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/Lakshita_DodejaCV_PhD_March'25.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://www.linkedin.com/in/lakshita-dodeja-15399321b/">Linkedin</a> &nbsp/&nbsp
 		<a href="https://scholar.google.com/citations?user=A2yEaCkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/lakshitadodeja">Github</a> &nbsp/&nbsp
@@ -50,6 +50,23 @@
 
   <heading>Publications</heading>
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+         <img src="data/residual_rl.png" width="260">
+       </td>
+       <td style="padding:20px;width:75%;vertical-align:middle">
+         <b>Accelerating Residual Policy Learning with Uncertainty Estimation</b>
+         <br>
+         <i>Lakshita Dodeja, Karl Schmeckpeper, Shivam Vats, Thomas Weng, and Stefanie Tellex. Under Review</i>
+         <br><br>
+         <p align="justify">Residual Reinforcement Learning (RL) is a popular approach for adapting pretrained policies by learning a lightweight residual policy to provide corrective actions. While Residual RL is more sample-efficient compared to finetuning the entire base policy, existing methods struggle with sparse rewards and are designed for deterministic base policies. We propose two improvements to Residual RL that further enhance its sample efficiency and make it suitable for stochastic base policies. First, we leverage uncertainty estimates of the base policy to focus exploration on regions in which the base policy is not confident. Second, we propose a simple modification to off-policy residual learning that allows it to observe base actions and better handle stochastic base policies.</p>
+          <details>
+            <summary>Expand</summary>
+          <p>We evaluate our method with both Gaussian-based and Diffusion-based stochastic base policies on tasks from Robosuite and D4RL, and compare against state-of-the-art finetuning methods, demo-augmented RL methods, and other residual RL methods. Our algorithm significantly outperforms existing baselines in a variety of difficult manipulation environments.</p>
+         </details>
+          <br>
+ 
+       </tr>
      <tr>
      <td style="padding:20px;width:25%;vertical-align:middle">
         <img src="data/graphical_abstract.png" width="260">
